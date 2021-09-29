@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/create_group_name_textview"
+        android:text="@string/option_submenu_create_group"
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/input_create_group_name"
+        android:inputType="text"
+        android:maxLength="10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollHorizontally="true" />
+
+</LinearLayout>

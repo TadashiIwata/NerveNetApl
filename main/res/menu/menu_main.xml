@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".ActMain">
+    <item android:id="@+id/option_recSetting"
+        android:title="@string/option_menu_rec"
+        android:orderInCategory="10"
+        app:showAsAction="never">
+    </item>
+    <item android:id="@+id/option_palySetting"
+        android:title="@string/option_menu_play"
+        android:orderInCategory="10"
+        app:showAsAction="never">
+    </item>
+</menu>

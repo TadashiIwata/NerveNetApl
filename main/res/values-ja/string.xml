@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NerveNetApplication</string>
+    <string name="main_menu1">NerveNet通話</string>
+    <string name="main_menu2">音声メッセージ送信</string>
+    <string name="main_menu3">メッセージ再生</string>
+    <string name="phone_title">NerveNet通話</string>
+    <string name="phone_dialing">呼び出し中...</string>
+    <string name="phone_talking">通話中</string>
+    <string name="phone_term">通話終了</string>
+    <string name="phone_calling">着信中</string>
+    <string name="phone_caller">相手番号</string>
+    <string name="phone_cancel">切断されました。</string>
+    <string name="alert_mic_title">マイクの使用が許可されていません。</string>
+    <string name="alert_mic_message">マイクの使用を許可して下さい。</string>
+    <string name="alert_strage_title">ストレージへの書き込みが許可されていません。</string>
+    <string name="alert_strage_message">ストレージへの書き込みを許可して下さい。</string>
+    <string name="alert_os_unmatch">チャットは Android 6.0以降で使用出来ます。</string>
+    <string name="voicerec_title">音声メッセージ送信</string>
+    <string name="voicerec_subtitle">メッセージ作成</string>
+    <string name="voicerec_start">録音開始</string>
+    <string name="voicerec_exec">録音中</string>
+    <string name="voicerec_end">録音終了</string>
+    <string name="voicerec_send">メッセージ送信中</string>
+    <string name="voicerec_cancel">録音を中断しました。</string>
+    <string name="dialog_message">メッセージを送信しました。</string>
+    <string name="msgplay_title">メッセージ再生</string>
+    <string name="msgplay_subtitle">受信メッセージ一覧</string>
+    <string name="msgplay_autoplay">受信時に自動的に再生する。</string>
+    <string name="msgplay_receive">メッセージを受信しました。</string>
+    <dimen name="voicerec_start_size">80dp</dimen>
+    <drawable name="phone_img_call">@drawable/outou_jp</drawable>
+    <drawable name="phone_img_cancel">@drawable/kyohi_jp</drawable>
+    <drawable name="phone_img_term">@drawable/endphone_jp</drawable>
+    <string name="option_menu_rec">録音設定</string>
+    <string name="option_menu_play">再生設定</string>
+    <string name="option_submenu_time_discard">メッセージ有効期間設定</string>
+    <string name="option_submenu_discard_day">日</string>
+    <string name="option_submenu_discard_hour">時間</string>
+    <string name="option_submenu_discard_minute">分</string>
+    <string name="option_submenu_recmax">録音時間設定</string>
+    <string name="option_submenu_recbutton">音量ボタン有効</string>
+    <string name="option_submenu_recbutton_true">音量ボタンで録音できます。</string>
+    <string name="option_submenu_recbutton_false">音量ボタンでの録音を解除しました。</string>
+    <string name="option_submenu_recbutton_alert">音量ボタンでの録音が有効になっています。　録音は音量ボタン押して行ってください。</string>
+    <string name="option_submenu_autoplay">自動再生有無</string>
+    <string name="option_submenu_autoplay_true">メッセージの自動再生を有効にしました。</string>
+    <string name="option_submenu_autoplay_false">メッセージの自動再生を解除しました。</string>
+    <string name="option_submenu_pastplay">過去メッセージ自動再生設定</string>
+    <string name="option_submenu_pastplay_true">過去に録音されたメッセージも自動再生されます。</string>
+    <string name="option_submenu_pastplay_false">過去に録音されたメッセージは自動再生されません。</string>
+    <string name="option_submenu_audioformat">オーディオフォーマット</string>
+    <string name="option_submenu_audioformat_pcm">PCM</string>
+    <string name="option_submenu_audioformat_3gp">3GP</string>
+    <string name="option_submenu_audioencoder">オーディオエンコーダ</string>
+    <string name="option_submenu_audioencoder_default">DEFAULT</string>
+    <string name="option_submenu_audioencoder_aac">AAC</string>
+    <string name="option_submenu_audioencoder_he_aac">HE_AAC</string>
+    <string name="option_submenu_audioencoder_aac_eld">AAC_LED</string>
+    <string name="option_submenu_audioencoder_amr_nb">AMR_NB</string>
+    <string name="option_submenu_audioencoder_amr_wb">AMR_WB</string>
+    <string name="option_submenu_audioencoder_vorbis">VORBIS</string>
+    <string name="option_submenu_init_db">音声メッセージデータベース初期化</string>
+    <string name="option_submenu_init_db_msg">音声メッセージデータベースを初期化しますか？</string>
+
+    <!-- 基地局設定 -->
+    <string name="option_menu_bssetting">基地局設定</string>
+    <string name="option_submenu_time_correction">時刻補正</string>
+    <string name="bssetting_time_correction_none">無し</string>
+    <string name="bssetting_time_correction_notice">通知</string>
+    <string name="bssetting_time_correction_yes">有り</string>
+
+    <!-- グループ設定 -->
+    <string name="option_menu_group">グループ設定</string>
+
+    <!-- チャット関連・設定 -->
+    <string name="setting_chat_name">チャット設定</string>
+    <string name="option_menu_chat">チャット設定</string>
+    <string name="option_submenu_reg_chat_myname">ニックネーム登録</string>
+    <string name="option_submenu_count">メッセージ表示件数</string>
+    <string name="option_submenu_count_comment">メッセージ表示件数は 10～30 の範囲で入力してください。</string>
+    <string name="option_submenu_timecorrect">基地局時刻補正</string>
+    <string name="option_submenu_create_group">グループ作成</string>
+    <string name="option_submenu_delete_group">グループ削除</string>
+    <string name="option_submenu_create_group2">未サポートです。</string>
+    <string name="option_submenu_delete_group2">未サポートです。</string>
+    <string name="option_submenu_chat_auto_receive">自動受信</string>
+    <string name="option_submenu_chat_test_mode">テストモード</string>
+
+    <!-- チャット関連・メッセージ、タイトル -->
+    <string name="undefine_chat_name">ニックネームが登録されていません。チャット設定からニックネームを登録して下さい。</string>
+    <string name="group_chat_title">NerveNet Chat</string>
+    <string name="group_chat_list1">参加グループリスト</string>
+    <string name="group_chat_list2">端末リスト</string>
+    <string name="group_chat_none">参加可能なグループはありません。</string>
+    <string name="group_not_found">グループが見つかりませんでした。</string>
+    <!-- チャット関連・入力系 -->
+    <string name="gallery_button">ギャラリー</string>
+    <string name="camera_button">カメラ</string>
+    <string name="choose_photo">写真を選ぶ</string>
+    <string name="unselected_image">写真が選択されていません</string>
+    <string name="illegal_image">この画像ファイルは送信できません</string>
+    <string name="send_button">送信</string>
+    <string name="hint_for_input_chat">※発言内容はここにエントリして送信</string>
+
+    <!-- 画像関連・送信系 -->
+    <string name="option_menu_sendimage">画像設定(送信)</string>
+    <string name="option_submenu_quality">品質</string>
+    <string name="option_submenu_quality_comment">品質は 10～100 の範囲で入力して下さい。</string>
+    <string name="option_submenu_maxsize">最大画像サイズ</string>
+    <string name="option_submenu_maxsize_comment">最大画像サイズは 1000 ～ 2000000 の範囲で入力して下さい。</string>
+    <string name="option_submenu_sendratio">縮小倍率</string>
+    <string name="option_submenu_sendratio_comment">送信する画像の縮小倍率を選択して下さい。</string>
+    <!-- 画像関連・受信系 -->
+    <string name="option_menu_recvimage">画像表示設定</string>
+    <string name="option_submenu_recvratio">縮小倍率</string>
+    <string name="option_submenu_recvratio_comment">表示する画像の縮小倍率を選択して下さい。</string>
+
+    <!-- 基地局未接続時メッセージ -->
+    <string name="alert_dialog_title">基地局未接続</string>
+    <string name="alert_dialog_message1">基地局が見つかりません。基地局との接続を確認してください。</string>
+    <string name="alert_dialog_message2">基地局と未接続です。基地局と接続されるまでメッセージは送信されません。</string>
+    <string name="alert_dialog_message3_1">基地局と未接続です。未送信のメッセージが </string>
+    <string name="alert_dialog_message3_2">件あります。</string>
+    <string name="alert_dialog_message4_1">基地局と未接続です。未送信のメッセージの保存件数が上限(</string>
+    <string name="alert_dialog_message4_2">件)に達しました。基地局と接続して保存されているメッセージを送信して下さい。(</string>
+    <string name="alert_dialog_message_other">基地局と未接続です。</string>
+
+    <!-- 基地局時刻関連 -->
+    <string name="alert_date_dialog_title">基地局時刻不一致</string>
+    <string name="alert_date_dialog_message1">本器と基地局の時刻が合っていません。基地局の時刻を補正しますか</string>
+    <string name="alert_date_dialog_message2">本器と基地局の時刻が合っていません。本器と基地局の時刻を合わせてください。</string>
+    <string name="alert_date_dialog_bsdate">基地局時刻：</string>
+    <string name="alert_date_dialog_termdate">端末時刻：</string>
+    <string name="alert_date_dialog_warning">本器と基地局の時刻が合っていないためメッセージの送受信ができません。</string>
+
+    <!-- 画像保存用 -->
+    <string name="alert_image_save_title">画像保存確認</string>
+    <string name="alert_image_save_message">この画像を保存しますか。</string>
+    <string name="image_saved_message">画像を保存しました。</string>
+
+    <!-- カメラ用 -->
+    <string name="alert_camera_title">カメラ</string>
+    <string name="alert_camera_not_supported_message">カメラは未サポートです。</string>
+
+    <!-- グループ、端末関連・登録 -->
+    <string name="alert_dialog_add_terminal">新規ユーザー登録</string>
+    <string name="alert_dialog_confirm_terminal">ユーザ情報確認</string>
+    <string name="alert_dialog_add_terminal_name">名前</string>
+    <string name="alert_dialog_add_terminal_sipuri">SIPURI</string>
+    <string name="alert_dialog_add_terminal_ok">登録</string>
+    <string name="alert_dialog_add_terminal_ok2">参加</string>
+    <string name="alert_dialog_add_terminal_ok3">ユーザー追加</string>
+    <string name="alert_dialog_add_terminal_ok4">確認</string>
+    <string name="alert_dialog_add_terminal_ng">取消</string>
+    <string name="alert_dialog_add_group">グループ作成</string>
+    <string name="alert_dialog_add_group_name">グループ名</string>
+    <string name="alert_dialog_append_group">グループ参加</string>
+    <string name="alert_dialog_append_message">参加するグループを選択して下さい。</string>
+    <string name="alert_dialog_append_success">ユーザーをグループに追加しました。</string>
+    <string name="alert_dialog_create_success">グループを作成しました。</string>
+    <string name="alert_dialog_select_terminal_message">グループに参加するユーザーを選択して下さい。</string>
+    <string name="joined_terminal_message">グループに参加しているユーザリスト</string>
+    <string name="terminals_in_a_group">未参加端末</string>
+    <string name="error_message_invlied_name">ユーザ名を入力してください。</string>
+    <string name="alert_dialog_group_joined">このグループには参加済みです。</string>
+    <string name="alert_dialog_groupname_already">このグループ名は既に使われています。</string>
+
+    <!-- QR code 関連-->
+    <string name="alert_dialog_create_qrcode">QRコード生成</string>
+    <string name="alert_dialog_read_qrcode">QRコード読み取り</string>
+
+    <string name="notify_message">VoiceMessageのサービス実行中。</string>
+</resources>

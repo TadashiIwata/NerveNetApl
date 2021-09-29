@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="font_size">20sp</dimen>
+    <dimen name="font_size_small">16sp</dimen>
+    <dimen name="font_size_large">32sp</dimen>
+    <dimen name="button_font_size">20sp</dimen>
+    <dimen name="list_title_font_size">20sp</dimen>
+    <dimen name="list_date_font_size">16sp</dimen>
+    <dimen name="list_cat_font_size">16sp</dimen>
+    <dimen name="list_cat_name_font_size">12sp</dimen>
+    <dimen name="list_cat_name_date_font_size">12sp</dimen>
+</resources>

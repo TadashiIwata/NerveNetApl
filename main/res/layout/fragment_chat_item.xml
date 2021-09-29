@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/chatItem_linearLayout"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/chatItem_textView_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="1dp"
+            android:textSize="@dimen/list_cat_font_size">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/chatItem_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        />
+
+        <TextView
+            android:id="@+id/chatItem_textView_date_and_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="3dp"
+            android:textSize="@dimen/list_cat_name_date_font_size">
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/chat_message_count_textview"
+        android:text="@string/option_submenu_count"
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="@string/option_submenu_count_comment"
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/input_chat_message_count"
+        android:inputType="numberDecimal"
+        android:maxLength="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollHorizontally="true" />
+
+</LinearLayout>

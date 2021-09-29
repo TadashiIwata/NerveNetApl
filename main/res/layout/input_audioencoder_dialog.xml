@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/audioencoder_textview"
+        android:text="@string/option_submenu_audioencoder"
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:id="@+id/audioencoderdiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/audioencoder_default"
+            android:text="@string/option_submenu_audioencoder_default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/audioencoder_aac"
+            android:text="@string/option_submenu_audioencoder_aac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/audioencoder_he_aac"
+            android:text="@string/option_submenu_audioencoder_he_aac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/audioencoder_aac_eld"
+            android:text="@string/option_submenu_audioencoder_aac_eld"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/audioencoder_amr_nb"
+            android:text="@string/option_submenu_audioencoder_amr_nb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/audioencoder_amr_wb"
+            android:text="@string/option_submenu_audioencoder_amr_wb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+</LinearLayout>

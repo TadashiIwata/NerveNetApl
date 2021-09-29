@@ -1,0 +1,172 @@
+<resources>
+    <string name="app_name">NerveNetApplication</string>
+    <string name="main_menu1">NerveNet Phone</string>
+    <string name="main_menu2">Voice Message Broadcasting</string>
+    <string name="main_menu3">Voice Message playback</string>
+    <string name="phone_title">NerveNet Phone</string>
+    <string name="phone_dialing">Dialing...</string>
+    <string name="phone_talking">Talking.</string>
+    <string name="phone_term">Termination.</string>
+    <string name="phone_calling">Calling...</string>
+    <string name="phone_caller">Caller number.</string>
+    <string name="phone_cancel">Termination.</string>
+    <string name="alert_mic_title">You can not use the microphone.</string>
+    <string name="alert_mic_message">Please change the permissions of the microphone.</string>
+    <string name="alert_strage_title">Storage is not available.</string>
+    <string name="alert_strage_message">Please change the storage of permission.</string>
+    <string name="alert_os_unmatch">Chat can be used with Android 6.0 or later.</string>
+    <string name="voicerec_title">Voice Message Broadcasting</string>
+    <string name="voicerec_subtitle">Voice Message Broadcasting</string>
+    <string name="voicerec_start">Start recording.</string>
+    <string name="voicerec_exec">Recording...</string>
+    <string name="voicerec_end">The end of recording.</string>
+    <string name="voicerec_send">Voice messages during transmission.</string>
+    <string name="voicerec_cancel">Aborted the recording.</string>
+    <string name="dialog_message">The message has been sent.</string>
+    <string name="msgplay_title">Voice Message playback</string>
+    <string name="msgplay_subtitle">Voice Message List</string>
+    <string name="msgplay_autoplay">Auto play mode</string>
+    <string name="msgplay_receive">The message was received.</string>
+    <dimen name="voicerec_start_size">45dp</dimen>
+    <drawable name="phone_img_call">@drawable/outou</drawable>
+    <drawable name="phone_img_cancel">@drawable/kyohi</drawable>
+    <drawable name="phone_img_term">@drawable/endphone</drawable>
+    <string name="option_menu_rec">Recording Settings</string>
+    <string name="option_menu_play">Playback Settings</string>
+    <string name="option_submenu_time_discard">Message validity period.</string>
+    <string name="option_submenu_discard_day">days</string>
+    <string name="option_submenu_discard_hour">hours</string>
+    <string name="option_submenu_discard_minute">minutes</string>
+    <string name="option_submenu_recmax">Recording time setting.</string>
+    <string name="option_submenu_recbutton">Recording by volume button.</string>
+    <string name="option_submenu_recbutton_true">You can record at the volume button.</string>
+    <string name="option_submenu_recbutton_false">You cancel the recording of at the volume button.</string>
+    <string name="option_submenu_recbutton_alert">Recording at the volume button is enabled. Recording, please go and press the volume button.</string>
+    <string name="option_submenu_autoplay">Auto play mode.</string>
+    <string name="option_submenu_autoplay_true">The automatic playback of the message was enabled.</string>
+    <string name="option_submenu_autoplay_false">And it has removed the automatic playback of messages.</string>
+    <string name="option_submenu_pastplay">Also play back past messages.</string>
+    <string name="option_submenu_pastplay_true">Messages that were recorded in the past will also be played.</string>
+    <string name="option_submenu_pastplay_false">Messages that were recorded in the past will not be played.</string>
+    <string name="option_submenu_audioformat">Audio format.</string>
+    <string name="option_submenu_audioformat_pcm">PCM</string>
+    <string name="option_submenu_audioformat_3gp">3GP</string>
+    <string name="option_submenu_audioencoder">Audio encoder.</string>
+    <string name="option_submenu_audioencoder_default">DEFAULT</string>
+    <string name="option_submenu_audioencoder_aac">AAC</string>
+    <string name="option_submenu_audioencoder_he_aac">HE_AAC</string>
+    <string name="option_submenu_audioencoder_aac_eld">AAC_LED</string>
+    <string name="option_submenu_audioencoder_amr_nb">AMR_NB</string>
+    <string name="option_submenu_audioencoder_amr_wb">AMR_WB</string>
+    <string name="option_submenu_audioencoder_vorbis">VORBIS</string>
+    <string name="option_submenu_init_db">Initialization of voice message database</string>
+    <string name="option_submenu_init_db_msg">Do you want to initialize the voice message database?</string>
+
+    <!-- 基地局設定 -->
+    <string name="option_menu_bssetting">Base station setting</string>
+    <string name="option_submenu_time_correction">Time correction</string>
+    <string name="bssetting_time_correction_none">None</string>
+    <string name="bssetting_time_correction_notice">Notice</string>
+    <string name="bssetting_time_correction_yes">Yes</string>
+
+    <!-- グループ設定 -->
+    <string name="option_menu_group">Group Setting</string>
+
+    <!-- チャット関連・設定 -->
+    <string name="setting_chat_name">Chat setting</string>
+    <string name="option_menu_chat">Chat Setting</string>
+    <string name="option_submenu_reg_chat_myname">Nickname registration</string>
+    <string name="option_submenu_count">Message display number</string>
+    <string name="option_submenu_count_comment">Enter the number of displayed messages in the range of 10-30.</string>
+    <string name="option_submenu_timecorrect">Base station time correction</string>
+    <string name="option_submenu_create_group">Create group</string>
+    <string name="option_submenu_delete_group">Delete group</string>
+    <string name="option_submenu_create_group2">It is unsupported.</string>
+    <string name="option_submenu_delete_group2">It is unsupported.</string>
+    <string name="option_submenu_chat_auto_receive">Auto receive</string>
+    <string name="option_submenu_chat_test_mode">Test mode</string>
+    <!-- チャット関連・メッセージ、タイトル -->
+    <string name="undefine_chat_name">Nickname has not been registered. Please register a nickname from Chat setting.</string>
+    <string name="group_chat_title">NerveNet Chat</string>
+    <string name="group_chat_list1">Joined group list</string>
+    <string name="group_chat_list2">Terminal list</string>
+    <string name="group_chat_none">There is no group that can participate.</string>
+    <string name="group_not_found">The group could not be found.</string>
+    <!-- チャット関連・入力系 -->
+    <string name="gallery_button">Gallery</string>
+    <string name="camera_button">Camera</string>
+    <string name="choose_photo">Choose photo</string>
+    <string name="unselected_image">Photo not selected</string>
+    <string name="illegal_image">This image file can not be sent.</string>
+    <string name="send_button">Send</string>
+    <string name="hint_for_input_chat">* write message here</string>
+
+    <!-- 画像関連・送信系 -->
+    <string name="option_menu_sendimage">Image setting (Send)</string>
+    <string name="option_submenu_quality">Quality</string>
+    <string name="option_submenu_quality_comment">Please enter the quality in the range of 10-100.</string>
+    <string name="option_submenu_maxsize">Maximum image size</string>
+    <string name="option_submenu_maxsize_comment">Please enter the maximum image size in the range of 1000-2000000.</string>
+    <string name="option_submenu_sendratio">Reduction ratio</string>
+    <string name="option_submenu_sendratio_comment">Please select the reduction ratio of the image to be sent.</string>
+    <!-- 画像関連・受信系 -->
+    <string name="option_menu_recvimage">Image display setting</string>
+    <string name="option_submenu_recvratio">Reduction ratio</string>
+    <string name="option_submenu_recvratio_comment">Please select the reduction ratio of the image to be displayed.</string>
+
+    <!-- 基地局未接続時メッセージ -->
+    <string name="alert_dialog_title">Base station not connected</string>
+    <string name="alert_dialog_message1">Base station not found. Check the connection with the base station.</string>
+    <string name="alert_dialog_message2">It is not connected with the base station. The message is not sent until it is connected to the base station.</string>
+    <string name="alert_dialog_message3_1">It is not connected with the base station. There are </string>
+    <string name="alert_dialog_message3_2"> unsent messages.</string>
+    <string name="alert_dialog_message4_1">It is not connected with the base station. The number of saved unsent messages has reached the upper limit ((</string>
+    <string name="alert_dialog_message4_2">). Connect with the base station and send the stored message.(</string>
+    <string name="alert_dialog_message_other">It is not connected with the base station.</string>
+
+    <!-- 基地局時刻関連 -->
+    <string name="alert_date_dialog_title">Base station time mismatch</string>
+    <string name="alert_date_dialog_message1">The time of the unit and base station do not match. Do you want to correct the base station time?</string>
+    <string name="alert_date_dialog_message2">The time of the unit and base station do not match. Set the time of the unit and the base station.</string>
+    <string name="alert_date_dialog_bsdate">Base station time: </string>
+    <string name="alert_date_dialog_termdate">Terminal time: </string>
+    <string name="alert_date_dialog_warning">Messages can not be sent or received because the time of the unit and base station do not match.</string>
+
+    <!-- 画像保存用 -->
+    <string name="alert_image_save_title">Image save confirmation</string>
+    <string name="alert_image_save_message">Do you want to save this image?</string>
+    <string name="image_saved_message">The image has been saved.</string>
+
+    <!-- カメラ用 -->
+    <string name="alert_camera_title">Camera</string>
+    <string name="alert_camera_not_supported_message">Camera is not supported.</string>
+
+    <!-- グループ、端末関連・登録 -->
+    <string name="alert_dialog_add_terminal">New user registration</string>
+    <string name="alert_dialog_confirm_terminal">User information confirmation</string>
+    <string name="alert_dialog_add_terminal_name">Nickname</string>
+    <string name="alert_dialog_add_terminal_sipuri">SIPURI</string>
+    <string name="alert_dialog_add_terminal_ok">OK</string>
+    <string name="alert_dialog_add_terminal_ok2">JOIN</string>
+    <string name="alert_dialog_add_terminal_ok3">Add user</string>
+    <string name="alert_dialog_add_terminal_ok4">OK</string>
+    <string name="alert_dialog_add_terminal_ng">Cancel</string>
+    <string name="alert_dialog_add_group">Create group</string>
+    <string name="alert_dialog_add_group_name">group name</string>
+    <string name="alert_dialog_append_group">Join a group</string>
+    <string name="alert_dialog_append_message">Please select a group to join.</string>
+    <string name="alert_dialog_append_success">The user has been added to the group.</string>
+    <string name="alert_dialog_create_success">I created a group.</string>
+    <string name="alert_dialog_select_terminal_message">Please select a user to join the group.</string>
+    <string name="joined_terminal_message">List of users participating in the group</string>
+    <string name="terminals_in_a_group">Unjoined users</string>
+    <string name="error_message_invlied_name">Please enter your username.</string>
+    <string name="alert_dialog_group_joined">You have joined this group.</string>
+    <string name="alert_dialog_groupname_already">This group name is already in use.</string>
+
+    <!-- QR code 関連-->
+    <string name="alert_dialog_create_qrcode">QR code generation</string>
+    <string name="alert_dialog_read_qrcode">QR code reading</string>
+
+    <string name="notify_message">VoiceMessage service running.</string>
+</resources>

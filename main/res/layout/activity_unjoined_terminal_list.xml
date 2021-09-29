@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/terminal_list_in_the_group">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+    <TextView
+        android:id="@+id/addterminalfromgroup_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Group Name"
+        android:textSize="40sp" />
+    <LinearLayout
+        android:id="@+id/addterminalfromgroup_subtitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/addterminalfromgroup_title">
+        <TextView
+            android:text="@string/alert_dialog_select_terminal_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_vertical"
+            android:textSize="15sp"/>
+        <ImageButton
+            android:id="@+id/addnewterminal"
+            android:src="@drawable/plus25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"/>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/add_terminal_list_to_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addterminalfromgroup_subtitle">
+    </ListView>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom">
+    <Button
+        android:text="@string/alert_dialog_append_group"
+        android:id="@id/addterminaltogroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="30dp"/>
+    </LinearLayout>
+</LinearLayout>

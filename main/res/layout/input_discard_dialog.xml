@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/discard_textview"
+        android:text="@string/option_submenu_time_discard"
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/input_discard"
+        android:inputType="number"
+        android:maxLength="3"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:scrollHorizontally="true" />
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/discard_day"
+            android:text="@string/option_submenu_discard_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/discard_hour"
+            android:text="@string/option_submenu_discard_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/discard_minute"
+            android:text="@string/option_submenu_discard_minute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+</LinearLayout>
