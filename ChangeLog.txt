@@ -1,0 +1,9 @@
+2021/09/29 I.Tadashi
+  NerveNet Platform 用に本アプリケーションの改修を開始。
+　改修内容
+  ・Android 8への対応
+　・Android 8への対応後、Android 11で動作確認と改修
+　・Android 11で動作確認後、Android 12で動作確認と改修
+
+
+
